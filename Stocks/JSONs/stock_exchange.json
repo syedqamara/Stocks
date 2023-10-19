@@ -1,0 +1,157 @@
+{
+  "sectors" : [
+    {
+      "name" : "Oil & Gas",
+      "distributions" : [
+        {
+          "name" : "ARAMCO",
+          "image" : "brand_logo",
+          "stocks" : [
+            {
+              "title" : "Stocks",
+              "value" : "12"
+            },
+            {
+              "title" : "Profit\/Loss",
+              "value" : "9.89%",
+              "image" : "graph_up"
+            }
+          ]
+        },
+        {
+          "name" : "ASEER",
+          "image" : "brand_logo",
+          "stocks" : [
+            {
+              "title" : "Stocks",
+              "value" : "2"
+            },
+            {
+              "title" : "Profit\/Loss",
+              "value" : "10.00%",
+              "image" : "graph_down"
+            }
+          ]
+        }
+      ],
+      "daily_stock_rank" : {
+        "most_drop" : {
+          "value" : "+10.00%",
+          "title" : "Today's Stock Drop",
+          "name" : "ASEER",
+          "image" : "graph_down",
+          "color" : "#c72237"
+        },
+        "most_gain" : {
+          "value" : "+9.89%",
+          "title" : "Today's Stock Gainer",
+          "name" : "ARAMCO",
+          "image" : "graph_up",
+          "color" : "#259210"
+        }
+      }
+    },
+    {
+      "name" : "Power Sector",
+      "distributions" : [
+        {
+          "name" : "WAPDA",
+          "image" : "brand_logo",
+          "stocks" : [
+            {
+              "title" : "Stocks",
+              "value" : "2"
+            },
+            {
+              "title" : "Profit\/Loss",
+              "value" : "9.89%",
+              "image" : "graph_up"
+            }
+          ]
+        },
+        {
+          "name" : "LESCO",
+          "image" : "brand_logo",
+          "stocks" : [
+            {
+              "title" : "Stocks",
+              "value" : "12"
+            },
+            {
+              "title" : "Profit\/Loss",
+              "value" : "10.00%",
+              "image" : "graph_down"
+            }
+          ]
+        }
+      ],
+      "daily_stock_rank" : {
+        "most_drop" : {
+          "value" : "+10.00%",
+          "title" : "Today's Stock Drop",
+          "name" : "ASEER",
+          "image" : "graph_down",
+          "color" : "#c72237"
+        },
+        "most_gain" : {
+          "value" : "+9.89%",
+          "title" : "Today's Stock Gainer",
+          "name" : "ARAMCO",
+          "image" : "graph_up",
+          "color" : "#259210"
+        }
+      }
+    },
+    {
+      "name" : "Agriculture Sector",
+      "distributions" : [
+        {
+          "name" : "Nestle Argi",
+          "image" : "brand_logo",
+          "stocks" : [
+            {
+              "title" : "Stocks",
+              "value" : "2"
+            },
+            {
+              "title" : "Profit\/Loss",
+              "value" : "9.89%",
+              "image" : "graph_up"
+            }
+          ]
+        },
+        {
+          "name" : "Pakistani Agri",
+          "image" : "brand_logo",
+          "stocks" : [
+            {
+              "title" : "Stocks",
+              "value" : "12"
+            },
+            {
+              "title" : "Profit\/Loss",
+              "value" : "10.00%",
+              "image" : "graph_down"
+            }
+          ]
+        }
+      ],
+      "daily_stock_rank" : {
+        "most_drop" : {
+          "value" : "+10.00%",
+          "title" : "Today's Stock Drop",
+          "name" : "ASEER",
+          "image" : "graph_down",
+          "color" : "#c72237"
+        },
+        "most_gain" : {
+          "value" : "+9.89%",
+          "title" : "Today's Stock Gainer",
+          "name" : "ARAMCO",
+          "image" : "graph_up",
+          "color" : "#259210"
+        }
+      }
+    }
+  ]
+}
