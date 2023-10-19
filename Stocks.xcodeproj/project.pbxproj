@@ -84,6 +84,7 @@
 		18462F9A2AE0232500DC65FC /* StockExchangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18462F972AE0232500DC65FC /* StockExchangeView.swift */; };
 		18462F9B2AE0232500DC65FC /* StockExchangeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18462F982AE0232500DC65FC /* StockExchangeViewModel.swift */; };
 		18462F9C2AE0232500DC65FC /* StockExchangeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18462F982AE0232500DC65FC /* StockExchangeViewModel.swift */; };
+		1846302D2AE0E30E00DC65FC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1846302C2AE0E30E00DC65FC /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -174,6 +175,7 @@
 		18462F972AE0232500DC65FC /* StockExchangeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockExchangeView.swift; sourceTree = "<group>"; };
 		18462F982AE0232500DC65FC /* StockExchangeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockExchangeViewModel.swift; sourceTree = "<group>"; };
 		18462F9D2AE027A100DC65FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1846302C2AE0E30E00DC65FC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -240,6 +242,7 @@
 			children = (
 				18462F9D2AE027A100DC65FC /* Info.plist */,
 				1839564F2ADDCE5400FA87E9 /* StocksApp.swift */,
+				1846302C2AE0E30E00DC65FC /* README.md */,
 				183956D92ADFD56E00FA87E9 /* JSONs */,
 				183956D62ADFD4E700FA87E9 /* Helpers */,
 				183956BC2ADEDEC100FA87E9 /* Core */,
@@ -589,6 +592,7 @@
 			files = (
 				183956572ADDCE5500FA87E9 /* Preview Assets.xcassets in Resources */,
 				183956542ADDCE5500FA87E9 /* Assets.xcassets in Resources */,
+				1846302D2AE0E30E00DC65FC /* README.md in Resources */,
 				183956DB2ADFD59E00FA87E9 /* stock_exchange.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
