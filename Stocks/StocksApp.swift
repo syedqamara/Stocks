@@ -7,10 +7,14 @@
 
 import SwiftUI
 import Dependencies
+import WidgetKit
 
 @main
 struct StocksApp: App {
     @Dependency(\.viewFactory) var viewFactory: ViewFactory
+    init() {
+        WidgetCenter.shared.reloadTimelines(ofKind: "StockHome")
+    }
     var body: some Scene {
         WindowGroup {
             AnyView(viewFactory.makeView(input: .stockExchange(exchange: nil)))

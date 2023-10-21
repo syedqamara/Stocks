@@ -12,5 +12,6 @@ import SwiftUI
 struct StockHomeBundle: WidgetBundle {
     var body: some Widget {
         StockHome()
+        
     }
 }

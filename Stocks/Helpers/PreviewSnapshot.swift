@@ -56,6 +56,14 @@ extension DailyStockRank {
         )
     }
 }
+extension Date {
+    public static var widgetRefreshData: Date {
+        Date().entryDate(time: 2)
+    }
+    public func entryDate(time: Int) -> Date {
+        Calendar.current.date(byAdding: .second, value: time, to: self)!
+    }
+}
 extension Distribution {
     public static var preview: Distribution {
         .init(

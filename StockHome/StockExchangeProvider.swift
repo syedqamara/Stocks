@@ -43,11 +43,6 @@ struct StockExchangeProvider: IntentTimelineProvider {
     
 }
 
-extension Date {
-    public static var widgetRefreshData: Date {
-        .now.addingTimeInterval(2)
-    }
-}
 
 struct StockExchangeUIModelTimelineEntry: TimelineEntry {
     var date: Date
